@@ -4,13 +4,29 @@
       "date":"08/13/2024",
       "workdayInfoObject":{
          "timesheetObject":[
-            
+            {
+               "workdayId":0,
+               "clockedIn":"9:30am",
+               "clockedOut":"11:30am",
+               "minsClockedIn":120
+            }
          ],
          "meetingObject":[
-            
+            {
+               "workdayId":0,
+               "timeInMeeting":30,
+               "meetingNotes":"These are some meeting notes"
+            }
          ],
          "treatmentObject":[
-            
+            {
+               "workdayId":0,
+               "timeInMins":15
+            },
+            {
+               "workdayId":0,
+               "timeInMins":10
+            }
          ]
       }
    },
